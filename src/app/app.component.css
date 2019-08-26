@@ -1,0 +1,32 @@
+footer {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: right;
+    color: rgb(245, 245, 245);
+  }
+.titlestyle{
+      color: blue;
+      font-style: italic;
+  }
+.logo {
+    height: 1000px;
+    width: 200;
+    padding: 1px;
+    size: 10cm;
+    background:url('src\Images\WhatsApp Image 2019-08-18 at 5.23.22 PM.jpeg') no-repeat center center;
+   
+    
+}
+.bookimg
+{height: 20px;
+    width: 20px;
+}
+ .textsuccess{
+     color: green;
+ }
+ .textDanger{
+    color: red;
+ }
+ .textSpecial{
+     font-style: italic
+ }
