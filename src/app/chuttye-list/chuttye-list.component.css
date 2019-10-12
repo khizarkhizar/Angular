@@ -1,0 +1,28 @@
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cid-rbxjwrNxro {
+    padding-top: 60px !important;
+    padding-bottom: 15px;
+    background-color: #f9f9f9;
+}
+.cid-qvQKn9LXS2, .cid-qxWA1sL9mH, .cid-rbxjwrNxro {
+    background-color: #f9f9f9;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+section, .container, .container-fluid {
+    position: relative;
+    word-wrap: break-word;
+}
+.media-container-row {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.col-md-8 {
+    
+    max-width: 66.666667%;
+}

@@ -14,14 +14,39 @@ footer {
     padding: 1px;
     size: 10cm;
     background:url('src\Images\WhatsApp Image 2019-08-18 at 5.23.22 PM.jpeg') no-repeat center center;
-   
+} 
+.form-navbar {
+    position: relative;
+    font-family: "bootstrap-themes";
+}
+ 
+.header_right_main {
+    float: right;
+    width: auto;
+}.navbar-collapse {
     
+    display: flex !important;
+} 
+ 
+.form-control, .input-text, #user_login, #user_pass {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 40px;
+    color: #272727;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
+    font-size: 14px;
+}
+.header_login {
+    float: right;
+    margin: -3px 0 0 0px;
+    padding: 0px;
+    width: auto;
 }
 .bookimg
 {height: 20px;
     width: 20px;
 }
- .textsuccess{
+ /*.textsuccess{
      color: green;
  }
  .textDanger{
@@ -30,3 +55,4 @@ footer {
  .textSpecial{
      font-style: italic
  }
+*/

@@ -1,0 +1,25 @@
+ <div class="jumbotron jumbotron-fluid" ng-app="">
+    <div class="container">
+      <h1 class="display-4" style="text-align: center" >   Our Chuttyas are :</h1>    
+    </div>
+  </div>
+  <section class="features2 morest" id="features2-m">
+ 
+    <div class="container"> 
+        <div class="card-group">  
+            <!--bootstrap card with 3 horizontal images-->
+            <div class="row"> 
+                <div class="card col-md-4"  *ngFor="let d of dat; let i = index"  > 
+                
+                    <img class="card-img-top" style="height:300px" src= "{{da[i]}}"> 
+
+                    <div class="card-body"> 
+                        <h3 class="card-title" >{{d.name}}</h3> 
+                        <p class="card-text">{{d.para}}</p> 
+                       
+                    </div> 
+                    <a routerLink="{{d.page}}" routerLinkActive="active"><button   type="button" class="btn btn-primary">GO</button></a>
+                </div> 
+            </div> 
+        </div> 
+    </div>  

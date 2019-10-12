@@ -1,0 +1,10 @@
+[
+   { "id":1,"name":"jani's World","para":"Here we have all the chuttyepas of jani .we are here to familier to you about jani's quality and life","page":"/jani","Image":"{{imageSrc}}" },
+   { "id":2,"name":"Sohaila","para":"Here we have all the chuttyepas of sohaila .we are here to familier to you about jani's quality and life","page":"/sohail","Image":"{{imageSrc1}}"},
+   { "id":3,"name":"Saru","para":"Here we have all the chuttyepas of {{d.name}} .we are here to familier to you about jani's quality and life","page":"/saru","Image":"imageSrc2"},
+   { "id":4,"name":"Molvie","para":"Here we have all the chuttyepas of {{d.name}} .we are here to familier to you about jani's quality and life","page":"/molvie","Image":"imageSrc3"},
+   { "id":5,"name":"Bhi","para":"Here we have all the chuttyepas of {{d.name}} .we are here to familier to you about jani's quality and life","page":"/bhi","Image":"imageSrc4"},
+   { "id":6,"name":"Mota","para":"Here we have all the chuttyepas of {{d.name}} .we are here to familier to you about jani's quality and life","page":"/mota","Image":"imageSrc5"},
+   { "id":7,"name":"Qasima","para":"Here we have all the chuttyepas of {{d.name}}.we are here to familier to you about jani's quality and life","page":"/qasim","Image":"imageSrc6"},
+   { "id":8,"name":"Roshi G","para":"Here we have all the chuttyepas of {{d.name}}.we are here to familier to you about jani's quality and life","page":"/roshi","Image":"imageSrc7"}
+]
