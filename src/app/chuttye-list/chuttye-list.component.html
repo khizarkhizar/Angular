@@ -9,15 +9,15 @@
         <!--bootstrap card with 3 horizontal images-->
         <div class="row">
           <div class="col-md-4 mb-3 p-3" *ngFor="let d of dat; let i = index">
-            <div class="card shadow-lg">
+            <div class="card bg-transparent border-0 align-items-center">
               <img
-                style="height:18rem"
-                class="card-img-top"
+                style="height:15rem; width:15rem"
+                class="card-img-top rounded-circle"
                 src="{{ da[i] }}"
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">{{ d.name }}</h5>
+                <h5 class="card-title text-center">{{ d.name }}</h5>
                 <p class="card-text lead">
                   {{ d.para }}
                 </p>
